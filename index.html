@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Sushant Rawat, a web developer building responsive and user-friendly web experiences.">
+    <meta name="theme-color" content="#08111f">
+    <meta property="og:title" content="Sushant Rawat | Web Developer">
+    <meta property="og:description" content="Explore Sushant Rawat's web development skills, projects, and contact information.">
+    <meta property="og:type" content="website">
+    <title>Sushant Rawat | Web Developer</title>
+    <!-- TODO: Add a favicon file, then uncomment: <link rel="icon" href="favicon.ico"> -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header" id="siteHeader">
+        <nav class="navbar container" aria-label="Primary navigation">
+            <a class="brand" href="#home" aria-label="Sushant Rawat, home"><span>SR</span> Sushant Rawat</a>
+            <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+            <div class="nav-panel" id="navMenu">
+                <ul class="nav-links">
+                    <li><a class="nav-link active" href="#home">Home</a></li><li><a class="nav-link" href="#about">About</a></li><li><a class="nav-link" href="#skills">Skills</a></li><li><a class="nav-link" href="#projects">Projects</a></li><li><a class="nav-link" href="#experience">Experience</a></li><li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <!-- TODO: Add resume.pdf to the project root and replace this span with: <a class="btn btn-small btn-primary" href="resume.pdf" download>Resume</a> -->
+                <span class="btn btn-small btn-disabled" aria-disabled="true" title="Resume PDF coming soon">Resume</span>
+            </div>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section class="hero section" id="home" aria-labelledby="hero-title">
+            <div class="container hero-grid">
+                <div class="hero-copy"><p class="eyebrow">Hi, I'm</p><h1 id="hero-title">Sushant Rawat</h1><p class="hero-role">Web Developer</p><p class="hero-description">I build responsive, user-friendly web applications and enjoy turning ideas into clean and functional digital experiences.</p>
+                    <div class="hero-actions"><a class="btn btn-primary" href="#projects">View My Work</a><span class="btn btn-disabled" aria-disabled="true" title="Resume PDF coming soon">Download Resume</span><a class="btn btn-outline" href="#contact">Contact Me</a></div>
+                    <div class="hero-socials" aria-label="Social profiles"><a href="https://github.com/Sushantrawat12" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/sushant-rawat-543504293" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
+                </div>
+                <div class="hero-visual" aria-label="Profile image placeholder"><!-- TODO: Replace this placeholder with a professional profile image when available. --><div class="profile-placeholder" aria-hidden="true"><span>SR</span></div><div class="code-accent" aria-hidden="true"><span>&lt;</span> web developer <span>/&gt;</span></div></div>
+            </div>
+        </section>
+        <section class="section" id="about" aria-labelledby="about-title"><div class="container narrow reveal"><p class="section-kicker">A little about me</p><h2 class="section-title" id="about-title">About Me</h2><div class="about-card"><p>I'm Sushant Rawat, a web developer focused on creating responsive, accessible, and easy-to-use websites with HTML, CSS, and JavaScript.</p><p>I enjoy translating ideas into clean interfaces and strengthening my development skills through hands-on projects. I am also developing my Python knowledge while working toward opportunities where I can contribute, learn, and grow as a developer.</p></div></div></section>
+        <section class="section section-alt" id="skills" aria-labelledby="skills-title"><div class="container reveal"><p class="section-kicker">What I work with</p><h2 class="section-title" id="skills-title">Skills</h2><div class="skills-grid">
+            <article class="skill-card"><span class="card-number">01</span><h3>Frontend</h3><ul class="tags"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive Design</li></ul></article>
+            <article class="skill-card"><span class="card-number">02</span><h3>Development</h3><ul class="tags"><li>Web Development</li><li>Accessible UI</li><li>Responsive Layouts</li></ul></article>
+            <article class="skill-card"><span class="card-number">03</span><h3>Currently Learning</h3><ul class="tags"><li>Python</li></ul></article>
+        </div></div></section>
+        <section class="section" id="projects" aria-labelledby="projects-title"><div class="container reveal"><p class="section-kicker">Selected work</p><h2 class="section-title" id="projects-title">Projects</h2><div class="projects-grid"><article class="project-card"><div class="project-image" role="img" aria-label="Screenshot placeholder for YouTube Clone"><span>Project preview coming soon</span></div><div class="project-body"><p class="project-label">Featured Project</p><h3>YouTube Clone</h3><p>A frontend project recreating the structure and visual experience of a video browsing interface.</p><ul class="tags" aria-label="Technologies used"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><div class="project-actions"><!-- TODO: Replace disabled controls with the project's real GitHub and live demo URLs. --><span class="btn btn-small btn-disabled" aria-disabled="true">GitHub unavailable</span><span class="btn btn-small btn-disabled" aria-disabled="true">Demo unavailable</span></div></div></article></div></div></section>
+        <section class="section section-alt" id="experience" aria-labelledby="experience-title"><div class="container narrow reveal"><p class="section-kicker">Professional journey</p><h2 class="section-title" id="experience-title">Experience</h2><!-- TODO: Replace this empty state with verified role, company, dates, responsibilities, and technologies when available. --><div class="empty-state"><span aria-hidden="true">{ }</span><h3>Building experience through projects</h3><p>Verified professional experience details will be added here. In the meantime, explore my project work above.</p><a class="text-link" href="#projects">View projects <span aria-hidden="true">→</span></a></div></div></section>
+        <section class="section" id="contact" aria-labelledby="contact-title"><div class="container reveal"><p class="section-kicker">Let's connect</p><h2 class="section-title" id="contact-title">Contact Me</h2><div class="contact-grid">
+            <div class="contact-copy"><h3>Have a project or opportunity in mind?</h3><p>The form is currently in demo mode and does not send messages. Please reach me directly by email or through my social profiles.</p><ul class="contact-list"><li><span>Email</span><a href="mailto:your.sushantrawat71@gmail.com">your.sushantrawat71@gmail.com</a></li><li><span>GitHub</span><a href="https://github.com/Sushantrawat12" target="_blank" rel="noopener noreferrer">Sushantrawat12</a></li><li><span>LinkedIn</span><a href="https://www.linkedin.com/in/sushant-rawat-543504293" target="_blank" rel="noopener noreferrer">Sushant Rawat</a></li></ul></div>
+            <form class="contact-form" id="contactForm" novalidate><p class="form-notice" id="formStatus" role="status">Demo mode — submissions are not sent.</p><div class="form-row"><div class="form-group"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required minlength="2"><span class="error-message" id="nameError"></span></div><div class="form-group"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><span class="error-message" id="emailError"></span></div></div><div class="form-group"><label for="subject">Subject</label><input id="subject" name="subject" type="text" required minlength="3"><span class="error-message" id="subjectError"></span></div><div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5" required minlength="10"></textarea><span class="error-message" id="messageError"></span></div><button class="btn btn-primary" type="submit">Check Message</button></form>
+        </div></div></section>
+    </main>
+    <footer class="footer"><div class="container footer-inner"><div><a class="brand" href="#home"><span>SR</span> Sushant Rawat</a><p>Web Developer</p></div><div class="footer-links"><a href="mailto:your.sushantrawat71@gmail.com">Email</a><a href="https://github.com/Sushantrawat12" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/sushant-rawat-543504293" target="_blank" rel="noopener noreferrer">LinkedIn</a></div><p>© <span id="currentYear">2026</span> Sushant Rawat. All rights reserved.</p></div></footer>
+    <script src="index.js"></script>
+</body>
+</html>
